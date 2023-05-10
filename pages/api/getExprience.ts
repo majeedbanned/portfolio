@@ -1,7 +1,7 @@
 import type { NextApiRequest,NextApiResponse } from "next";
 import {groq} from "next-sanity"
 import { sanityClient } from "../../sanity";
-import {  Experience, Project,  } from "../../typinga";
+import {  Experience,  } from "../../typinga";
 ``
 type Data={exprience:Experience[]}
 
