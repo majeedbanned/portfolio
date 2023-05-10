@@ -33,7 +33,7 @@ export const Skills = ({ skills }: Props) => {
 
       <div className="grid grid-cols-4 gap-5">
         {skills.map((skill) => (
-          <Skill skill={skill} key={skill._id} />
+          <Skill directionLeft skill={skill} key={skill._id} />
         ))}
 
         {/* <Skill title="Javascript" />
