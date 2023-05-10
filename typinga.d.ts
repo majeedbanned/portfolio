@@ -27,7 +27,7 @@ export interface PageInfo extends SanityBody{
 }
 export interface Technology extends SanityBody{
     _type:"skill"
-    image:Image
+    Image:Image
     progress:number
     title:string
 
@@ -44,7 +44,7 @@ export interface Skill extends SanityBody{
 
 export interface Projects extends SanityBody{
     _type:"project"
-    image:Image
+    mage:Image
     title:string
     summery:string
     url:string
