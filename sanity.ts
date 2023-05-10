@@ -2,8 +2,8 @@ import {createClient} from 'next-sanity'
 import createImageUrlBuilder from '@sanity/image-url'
 
 export const config={
- projectId : process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ,// "pv8y60vp"
- dataset : process.env.NEXT_PUBLIC_SANITY_DATASET ,// "production"
+ projectId : process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "",
+ dataset : process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
  apiVersion : process.env.NEXT_PUBLIC_SANITY_API_VERSION, // "2023-05-03"
  
 }
