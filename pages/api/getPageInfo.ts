@@ -1,7 +1,7 @@
 import type { NextApiRequest,NextApiResponse } from "next";
 import {groq} from "next-sanity"
 import { sanityClient } from "../../sanity";
-import {  PageInfo, Project,  } from "../../typinga";
+import {  PageInfo,  } from "../../typinga";
 ``
 type Data={pageInfo:PageInfo[]}
 
