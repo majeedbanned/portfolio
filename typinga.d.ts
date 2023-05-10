@@ -44,7 +44,7 @@ export interface Skill extends SanityBody{
 
 export interface Projects extends SanityBody{
     _type:"project"
-    image:Image
+    Image:Image
     title:string
     summery:string
     url:string
