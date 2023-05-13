@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from "next";
+import type { GetStaticProps, GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
@@ -105,6 +105,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       skills,
       socials,
     },
-    revalidate: 60,
+    revalidate: 10,
   };
 };
+//export const revalidate = 10;

@@ -10,7 +10,7 @@ type Props = {
 
 export const Hero = ({ pageInfo }: Props) => {
   const [text, count] = useTypewriter({
-    words: [pageInfo.name, "Full stack  web Developer", "Mobile Developer"],
+    words: [pageInfo.name, pageInfo.role, "Mobile Developer"],
     loop: true,
     delaySpeed: 200,
   });
